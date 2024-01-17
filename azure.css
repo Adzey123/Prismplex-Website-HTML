@@ -52,6 +52,10 @@
 
 
 
+.navigation-links-root-class-name8 {
+  margin-right: var(--dl-space-space-fiveunits1);
+}
+
 .navigation-links-root-class-name17 {
   margin-right: var(--dl-space-space-fiveunits1);
 }
@@ -186,6 +190,8 @@
   height: var(--dl-size-size-medium);
 }
 .navigation-root-class-name3 {
+  top: 0px;
+  left: 0px;
   height: var(--dl-size-size-medium);
 }
 .navigation-root-class-name4 {
@@ -195,6 +201,15 @@
   height: var(--dl-size-size-medium);
 }
 .navigation-root-class-name6 {
+  height: var(--dl-size-size-medium);
+}
+.navigation-root-class-name7 {
+  height: var(--dl-size-size-medium);
+}
+.navigation-root-class-name8 {
+  height: var(--dl-size-size-medium);
+}
+.navigation-root-class-name9 {
   height: var(--dl-size-size-medium);
 }
 @media(max-width: 1600px) {
@@ -216,6 +231,125 @@
   }
 }
 
+.footerbar-container {
+  width: 100%;
+  bottom: 0;
+  height: auto;
+  display: flex;
+  z-index: 100;
+  position: relative;
+  align-self: center;
+  box-shadow: 5px 5px 10px 0px #d4d4d4;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--dl-color-scheme-darkgray);
+}
+.footerbar-max-width {
+  width: 100%;
+  height: 112px;
+  display: flex;
+  max-width: var(--dl-size-size-maxcontent);
+  align-items: center;
+  padding-top: var(--dl-space-space-twounits);
+  padding-left: var(--dl-space-space-oneandhalfunits);
+  padding-right: var(--dl-space-space-oneandhalfunits);
+  padding-bottom: var(--dl-space-space-twounits);
+  justify-content: space-between;
+}
+.footerbar-social-bar {
+  width: 100%;
+  display: flex;
+  padding: var(--dl-space-space-threeunits);
+  justify-content: center;
+}
+.footerbar-link {
+  display: contents;
+}
+.footerbar-image {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+  margin-right: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
+.footerbar-link1 {
+  display: contents;
+}
+.footerbar-image1 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+  margin-right: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
+.footerbar-link2 {
+  display: contents;
+}
+.footerbar-icon {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+  text-decoration: none;
+}
+.footerbar-email {
+  display: flex;
+  padding-left: var(--dl-space-space-twounits);
+  justify-content: center;
+}
+.footerbar-link3 {
+  display: contents;
+}
+.footerbar-container1 {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+}
+.footerbar-icon2 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+  margin-right: var(--dl-space-space-halfunit);
+}
+.footerbar-text {
+  font-size: 14px;
+  line-height: 1;
+  padding-left: 0px;
+}
+
+
+
+
+
+
+
+
+@media(max-width: 1600px) {
+  .footerbar-social-bar {
+    flex-wrap: wrap;
+  }
+  .footerbar-text {
+    z-index: 100;
+    font-size: 15px;
+    align-self: center;
+    text-align: left;
+    font-family: Arial;
+    margin-left: var(--dl-space-space-halfunit);
+  }
+}
+@media(max-width: 767px) {
+  .footerbar-max-width {
+    padding: var(--dl-space-space-unit);
+  }
+  .footerbar-social-bar {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+}
+@media(max-width: 479px) {
+  .footerbar-social-bar {
+    padding-top: var(--dl-space-space-twounits);
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    padding-bottom: var(--dl-space-space-twounits);
+  }
+}
+
 .azure-container {
   width: 100%;
   display: flex;
@@ -226,6 +360,38 @@
   justify-content: center;
 }
 .azure-container01 {
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+.azure-container02 {
+  margin: var(--dl-space-space-unit);
+  display: none;
+  padding: 20px;
+  position: relative;
+  flex-wrap: wrap;
+  flex-basis: 250px;
+  background-color: #869eb7;
+}
+.azure-sidebar {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  margin-top: 100px;
+  align-items: flex-start;
+}
+.azure-contents {
+  flex: 1;
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.azure-container03 {
   flex: 0 0 auto;
   width: auto;
   height: auto;
@@ -276,93 +442,12 @@
   margin-right: 0px;
   margin-bottom: var(--dl-space-space-twounits);
 }
-.azure-hero {
-  position: relative;
-  padding-top: 0px;
-  padding-bottom: var(--dl-space-space-twounits);
-}
-.azure-max-width1 {
-  margin-top: 0px;
-}
-.azure-gallery {
-  width: 100%;
-  display: flex;
-  grid-gap: 20px;
-  align-items: stretch;
-}
-.azure-container02 {
-  width: 25%;
-  align-self: stretch;
-}
-.azure-image01 {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  border-radius: var(--dl-radius-radius-radius8);
-}
-.azure-container03 {
-  width: 25%;
-  display: flex;
-  grid-gap: 20px;
-  align-items: stretch;
-  flex-direction: column;
-}
-.azure-image02 {
-  width: 100%;
-  object-fit: cover;
-  border-radius: var(--dl-radius-radius-radius8);
-}
-.azure-image03 {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  border-radius: var(--dl-radius-radius-radius8);
-}
-.azure-container04 {
-  width: 50%;
-  display: flex;
-  grid-gap: 20px;
-  flex-direction: column;
-}
-.azure-container05 {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  align-items: center;
-  border-radius: var(--dl-radius-radius-radius8);
-  background-size: cover;
-  justify-content: center;
-  background-image: url('https://play.teleporthq.io/static/svg/placeholders/no-image.svg');
-  background-position: center;
-}
-.azure-image04 {
-  width: 539px;
-  height: 246px;
-  object-fit: cover;
-}
-.azure-container06 {
-  width: 100%;
-  display: flex;
-  grid-gap: 20px;
-}
-.azure-image05 {
-  flex: 1;
-  height: 100%;
-  object-fit: cover;
-  border-radius: var(--dl-radius-radius-radius8);
-}
-.azure-image06 {
-  flex: 1;
-  height: 100%;
-  object-fit: cover;
-  border-radius: var(--dl-radius-radius-radius8);
-}
 .azure-about {
   padding-top: var(--dl-space-space-twounits);
   padding-bottom: 0px;
   background-color: #e5fcff;
 }
-.azure-max-width2 {
+.azure-max-width1 {
   flex-direction: row;
   justify-content: space-between;
 }
@@ -374,18 +459,18 @@
   margin-right: var(--dl-space-space-twounits);
   flex-direction: column;
 }
-.azure-text010 {
+.azure-text013 {
   text-align: center;
   font-family: "Arial";
   padding-top: var(--dl-space-space-unit);
   margin-bottom: var(--dl-space-space-halfunit);
 }
-.azure-text011 {
+.azure-text014 {
   color: var(--dl-color-scheme-black80);
   line-height: 26px;
   margin-bottom: var(--dl-space-space-twounits);
 }
-.azure-image07 {
+.azure-image01 {
   flex: 1;
   width: 404px;
   height: 265px;
@@ -394,7 +479,7 @@
 }
 .azure-link {
   color: #ffffff;
-  width: 328px;
+  width: 355px;
   height: 83px;
   align-self: center;
   margin-top: var(--dl-space-space-twounits);
@@ -402,16 +487,13 @@
   text-decoration: none;
   background-color: #2578ff;
 }
-.azure-text014 {
-  font-size: 40px;
-}
 .azure-icon {
   fill: #ffffff;
   width: 44px;
   height: 44px;
   margin-left: var(--dl-space-space-unit);
 }
-.azure-max-width3 {
+.azure-max-width2 {
   padding-top: 0px;
   padding-left: 0px;
   padding-right: 0px;
@@ -427,9 +509,35 @@
   flex-direction: column;
   justify-content: center;
 }
-.azure-text017 {
+.azure-text020 {
   align-self: flex-start;
-  margin-top: var(--dl-space-space-unit);
+  margin-top: var(--dl-space-space-twounits);
+  text-align: center;
+  font-family: "Arial";
+  margin-bottom: var(--dl-space-space-unit);
+}
+.azure-text021 {
+  color: var(--dl-color-scheme-black80);
+  align-self: flex-start;
+  line-height: 26px;
+  margin-bottom: var(--dl-space-space-twounits);
+}
+.azure-text024 {
+  align-self: flex-start;
+  margin-top: var(--dl-space-space-twounits);
+  text-align: center;
+  font-family: "Arial";
+  margin-bottom: var(--dl-space-space-unit);
+}
+.azure-text025 {
+  color: var(--dl-color-scheme-black80);
+  align-self: flex-start;
+  line-height: 26px;
+  margin-bottom: var(--dl-space-space-twounits);
+}
+.azure-text028 {
+  align-self: flex-start;
+  margin-top: var(--dl-space-space-twounits);
   text-align: center;
   font-family: "Arial";
   margin-bottom: var(--dl-space-space-unit);
@@ -438,20 +546,17 @@
   padding-top: 0px;
   background-color: #ffffff;
 }
-.azure-max-width4 {
+.azure-max-width3 {
   padding-left: 0px;
   padding-right: 0px;
   flex-direction: row;
   justify-content: space-between;
 }
-.azure-text018 {
+.azure-text029 {
   color: var(--dl-color-scheme-black80);
   align-self: flex-start;
   line-height: 26px;
   margin-bottom: var(--dl-space-space-twounits);
-}
-.azure-image-container1 {
-  border: 2px dashed rgba(120, 120, 120, 0.4);
 }
 .azure-feature-card {
   width: 100%;
@@ -462,37 +567,37 @@
   flex-direction: row;
   justify-content: flex-start;
 }
-.azure-container07 {
+.azure-container04 {
   display: flex;
   align-items: flex-start;
   flex-direction: column;
   justify-content: flex-start;
 }
-.azure-image08 {
+.azure-image02 {
   width: 200px;
   object-fit: cover;
 }
-.azure-container08 {
+.azure-container05 {
   display: flex;
   align-items: flex-start;
   flex-direction: column;
   justify-content: flex-start;
 }
-.azure-text025 {
+.azure-text036 {
   font-weight: 600;
   margin-bottom: 0px;
 }
-.azure-text028 {
+.azure-text039 {
   margin-bottom: var(--dl-space-space-unit);
 }
-.azure-text029 {
+.azure-text040 {
   font-family: "Arial";
 }
-.azure-text031 {
+.azure-text044 {
   color: #007fff;
   text-decoration: underline;
 }
-.azure-text043 {
+.azure-text056 {
   font-style: italic;
 }
 .azure-feature-card1 {
@@ -504,30 +609,30 @@
   flex-direction: row;
   justify-content: flex-start;
 }
-.azure-container09 {
+.azure-container06 {
   display: flex;
   align-items: flex-start;
   flex-direction: column;
   justify-content: flex-start;
 }
-.azure-image09 {
+.azure-image03 {
   width: 200px;
   object-fit: cover;
 }
-.azure-container10 {
+.azure-container07 {
   display: flex;
   align-items: flex-start;
   flex-direction: column;
   justify-content: flex-start;
 }
-.azure-text044 {
+.azure-text057 {
   font-weight: 600;
   margin-bottom: 0px;
 }
-.azure-text047 {
+.azure-text060 {
   margin-bottom: var(--dl-space-space-unit);
 }
-.azure-text048 {
+.azure-text061 {
   font-family: "Arial";
 }
 .azure-feature-card2 {
@@ -539,51 +644,51 @@
   flex-direction: row;
   justify-content: flex-start;
 }
-.azure-container11 {
+.azure-container08 {
   display: flex;
   align-items: flex-start;
   flex-direction: column;
   justify-content: flex-start;
 }
-.azure-image10 {
+.azure-image04 {
   width: 200px;
   object-fit: cover;
 }
-.azure-container12 {
+.azure-container09 {
   display: flex;
   align-items: flex-start;
   flex-direction: column;
   justify-content: flex-start;
 }
-.azure-text058 {
+.azure-text071 {
   font-weight: 600;
   margin-bottom: 0px;
 }
-.azure-text061 {
+.azure-text074 {
   margin-bottom: var(--dl-space-space-unit);
 }
-.azure-text062 {
+.azure-text075 {
   font-family: "Arial";
 }
-.azure-text064 {
+.azure-text077 {
   font-family: "Arial";
 }
-.azure-text070 {
+.azure-text083 {
   font-family: "Arial";
 }
-.azure-text073 {
+.azure-text086 {
   font-family: "Arial";
 }
 .azure-link1 {
   text-decoration: underline;
 }
-.azure-text077 {
+.azure-text092 {
   font-family: "Arial";
 }
 .azure-link2 {
   text-decoration: underline;
 }
-.azure-text081 {
+.azure-text098 {
   font-family: "Arial";
 }
 .azure-feature-card3 {
@@ -595,54 +700,57 @@
   flex-direction: row;
   justify-content: flex-start;
 }
-.azure-container13 {
+.azure-container10 {
   display: flex;
   align-items: flex-start;
   flex-direction: column;
   justify-content: flex-start;
 }
-.azure-image11 {
+.azure-image05 {
   width: 200px;
   object-fit: cover;
 }
-.azure-container14 {
+.azure-container11 {
   display: flex;
   align-items: flex-start;
   flex-direction: column;
   justify-content: flex-start;
 }
-.azure-text085 {
+.azure-text102 {
   font-weight: 600;
   margin-bottom: 0px;
 }
-.azure-text088 {
+.azure-text105 {
   margin-bottom: var(--dl-space-space-unit);
 }
-.azure-text089 {
+.azure-text106 {
   font-family: "Arial";
 }
-.azure-text090 {
+.azure-text107 {
   color: var(--dl-color-scheme-darkblue);
 }
-.azure-text091 {
+.azure-text108 {
   font-family: "Arial";
 }
-.azure-text092 {
+.azure-text109 {
   color: var(--dl-color-scheme-darkblue);
 }
-.azure-text093 {
+.azure-text110 {
   color: var(--dl-color-scheme-darkblue);
 }
-.azure-text095 {
+.azure-text114 {
   color: var(--dl-color-scheme-darkblue);
 }
-.azure-text096 {
+.azure-text115 {
   font-family: "Arial";
 }
-.azure-text097 {
+.azure-text116 {
   color: var(--dl-color-scheme-darkblue);
 }
-.azure-text098 {
+.azure-text117 {
+  color: var(--dl-color-scheme-darkblue);
+}
+.azure-text121 {
   color: var(--dl-color-scheme-darkblue);
 }
 .azure-feature-card4 {
@@ -654,30 +762,30 @@
   flex-direction: row;
   justify-content: flex-start;
 }
-.azure-container15 {
+.azure-container12 {
   display: flex;
   align-items: flex-start;
   flex-direction: column;
   justify-content: flex-start;
 }
-.azure-image12 {
+.azure-image06 {
   width: 200px;
   object-fit: cover;
 }
-.azure-container16 {
+.azure-container13 {
   display: flex;
   align-items: flex-start;
   flex-direction: column;
   justify-content: flex-start;
 }
-.azure-text100 {
+.azure-text123 {
   font-weight: 600;
   margin-bottom: 0px;
 }
-.azure-text103 {
+.azure-text126 {
   margin-bottom: var(--dl-space-space-unit);
 }
-.azure-text104 {
+.azure-text127 {
   font-family: "Arial";
 }
 .azure-feature-card5 {
@@ -689,30 +797,30 @@
   flex-direction: row;
   justify-content: flex-start;
 }
-.azure-container17 {
+.azure-container14 {
   display: flex;
   align-items: flex-start;
   flex-direction: column;
   justify-content: flex-start;
 }
-.azure-image13 {
+.azure-image07 {
   width: 200px;
   object-fit: cover;
 }
-.azure-container18 {
+.azure-container15 {
   display: flex;
   align-items: flex-start;
   flex-direction: column;
   justify-content: flex-start;
 }
-.azure-text107 {
+.azure-text153 {
   font-weight: 600;
   margin-bottom: 0px;
 }
-.azure-text110 {
+.azure-text156 {
   margin-bottom: var(--dl-space-space-unit);
 }
-.azure-text111 {
+.azure-text157 {
   font-family: "Arial";
 }
 .azure-feature-card6 {
@@ -724,30 +832,30 @@
   flex-direction: row;
   justify-content: flex-start;
 }
-.azure-container19 {
+.azure-container16 {
   display: flex;
   align-items: flex-start;
   flex-direction: column;
   justify-content: flex-start;
 }
-.azure-image14 {
+.azure-image08 {
   width: 200px;
   object-fit: cover;
 }
-.azure-container20 {
+.azure-container17 {
   display: flex;
   align-items: flex-start;
   flex-direction: column;
   justify-content: flex-start;
 }
-.azure-text114 {
+.azure-text165 {
   font-weight: 600;
   margin-bottom: 0px;
 }
-.azure-text117 {
+.azure-text168 {
   margin-bottom: var(--dl-space-space-unit);
 }
-.azure-text118 {
+.azure-text169 {
   font-family: "Arial";
 }
 .azure-feature-card7 {
@@ -759,47 +867,47 @@
   flex-direction: row;
   justify-content: flex-start;
 }
-.azure-container21 {
+.azure-container18 {
   display: flex;
   align-items: flex-start;
   flex-direction: column;
   justify-content: flex-start;
 }
-.azure-image15 {
+.azure-image09 {
   width: 200px;
   object-fit: cover;
 }
-.azure-container22 {
+.azure-container19 {
   display: flex;
   align-items: flex-start;
   flex-direction: column;
   justify-content: flex-start;
 }
-.azure-text121 {
+.azure-text181 {
   font-weight: 600;
   margin-bottom: 0px;
 }
-.azure-text124 {
+.azure-text184 {
   margin-bottom: var(--dl-space-space-unit);
 }
-.azure-text125 {
+.azure-text185 {
   font-family: "Arial";
 }
-.azure-main {
-  flex: 0 0 auto;
-  width: 100%;
-  border: 2px dashed rgba(120, 120, 120, 0.4);
-  height: 100px;
-  display: flex;
-  align-items: flex-start;
-  flex-direction: column;
+.azure-text190 {
+  font-family: "Arial";
 }
 @media(max-width: 1600px) {
+  .azure-container02 {
+    display: none;
+  }
   .azure-image {
     padding-top: var(--dl-space-space-threeunits);
   }
   .azure-max-width {
     padding-top: 0px;
+  }
+  .azure-heading-container {
+    margin-bottom: var(--dl-space-space-twounits);
   }
   .azure-text {
     font-family: Arial;
@@ -816,36 +924,27 @@
     margin-right: 0px;
     margin-bottom: 0px;
   }
-  .azure-hero {
-    height: auto;
-    padding-top: 0px;
-    padding-bottom: var(--dl-space-space-twounits);
-  }
-  .azure-text010 {
+  .azure-text013 {
     font-family: Arial;
   }
-  .azure-text011 {
+  .azure-text014 {
     color: var(--dl-color-scheme-black80);
     line-height: 26px;
   }
-  .azure-image07 {
+  .azure-image01 {
     border-color: var(--dl-color-scheme-darkblue);
-    border-style: solid;
+    border-style: outset;
     border-width: 5px;
   }
   .azure-link {
     color: #ffffff;
-    width: 354px;
+    width: 387px;
     height: 96px;
     margin-top: var(--dl-space-space-twounits);
     text-align: center;
-    border-style: solid;
+    border-style: ridge;
+    border-width: 0px;
     background-color: #015aff;
-  }
-  .azure-text014 {
-    font-size: 40px;
-    font-style: normal;
-    font-weight: 900;
   }
   .azure-icon {
     fill: #ffffff;
@@ -854,77 +953,133 @@
     margin-left: var(--dl-space-space-unit);
     padding-left: 0px;
   }
-  .azure-max-width3 {
+  .azure-max-width2 {
     padding-top: 0px;
   }
-  .azure-text017 {
+  .azure-text020 {
     font-family: Arial;
   }
-  .azure-text018 {
+  .azure-text021 {
     color: var(--dl-color-scheme-black80);
     line-height: 26px;
   }
+  .azure-text024 {
+    font-family: Arial;
+  }
+  .azure-text025 {
+    color: var(--dl-color-scheme-black80);
+    line-height: 26px;
+  }
+  .azure-text028 {
+    font-family: Arial;
+  }
   .azure-text029 {
+    color: var(--dl-color-scheme-black80);
+    line-height: 26px;
+  }
+  .azure-text040 {
     font-family: Arial;
   }
-  .azure-text034 {
+  .azure-text047 {
     font-family: Arial;
   }
-  .azure-text035 {
+  .azure-text048 {
     font-family: Arial;
   }
-  .azure-text037 {
+  .azure-text050 {
     font-family: Arial;
   }
-  .azure-text038 {
+  .azure-text051 {
     font-family: Arial;
   }
-  .azure-text043 {
+  .azure-text056 {
     font-style: italic;
+  }
+  .azure-text127 {
+    font-family: Arial;
+  }
+  .azure-text134 {
+    font-family: Arial;
+  }
+  .azure-text137 {
+    font-family: Arial;
+  }
+  .azure-text140 {
+    font-family: Arial;
+  }
+  .azure-text143 {
+    font-family: Arial;
+  }
+  .azure-text146 {
+    font-family: Arial;
+  }
+  .azure-text151 {
+    font-style: italic;
+  }
+  .azure-text157 {
+    font-family: Arial;
+  }
+  .azure-text159 {
+    font-family: Arial;
+  }
+  .azure-text162 {
+    font-family: Arial;
+  }
+  .azure-text169 {
+    font-family: Arial;
+  }
+  .azure-text171 {
+    font-family: Arial;
+  }
+  .azure-text174 {
+    font-family: Arial;
+  }
+  .azure-text177 {
+    font-family: Arial;
   }
 }
 @media(max-width: 1200px) {
   .azure-text {
     font-family: Arial;
   }
-  .azure-hero {
-    padding: 69px;
-    padding-top: 0px;
-  }
-  .azure-text010 {
+  .azure-text013 {
     font-family: Arial;
   }
-  .azure-text017 {
+  .azure-max-width2 {
+    padding: var(--dl-space-space-unit);
+  }
+  .azure-text020 {
     font-family: Arial;
   }
-  .azure-text018 {
+  .azure-text021 {
+    color: var(--dl-color-scheme-black80);
+    line-height: 26px;
+  }
+  .azure-text024 {
+    font-family: Arial;
+  }
+  .azure-text025 {
+    color: var(--dl-color-scheme-black80);
+    line-height: 26px;
+  }
+  .azure-text028 {
+    font-family: Arial;
+  }
+  .azure-text029 {
     color: var(--dl-color-scheme-black80);
     line-height: 26px;
   }
 }
 @media(max-width: 991px) {
   .azure-max-width {
+    padding: var(--dl-space-space-unit);
     flex-direction: column;
   }
   .azure-heading-container {
     max-width: 100%;
     margin-bottom: 42px;
   }
-  .azure-gallery {
-    flex-direction: column;
-  }
-  .azure-container02 {
-    width: 100%;
-  }
-  .azure-container03 {
-    width: 100%;
-    flex-direction: row;
-  }
-  .azure-container04 {
-    width: 100%;
-    align-items: stretch;
-  }
-  .azure-max-width2 {
+  .azure-max-width1 {
     flex-direction: column;
   }
   .azure-text-container1 {
@@ -935,124 +1090,139 @@
   .azure-image-container {
     width: 100%;
   }
-  .azure-image07 {
+  .azure-image01 {
     width: 100%;
   }
-  .azure-max-width3 {
+  .azure-max-width2 {
     flex-direction: column;
   }
   .azure-heading-container1 {
     max-width: 100%;
     margin-bottom: 42px;
   }
-  .azure-max-width4 {
+  .azure-max-width3 {
     flex-direction: column;
-  }
-  .azure-image-container1 {
-    width: 100%;
   }
 }
 @media(max-width: 767px) {
+  .azure-container01 {
+    order: 2;
+    width: 100%;
+    flex-wrap: wrap;
+    flex-basis: 100%;
+    align-items: stretch;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
   .azure-text {
     font-size: 48px;
   }
-  .azure-container03 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-  }
-  .azure-image02 {
-    height: 100%;
-  }
-  .azure-container06 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-  }
-  .azure-image05 {
-    width: 100%;
-  }
-  .azure-image06 {
-    width: 100%;
-  }
-  .azure-text010 {
+  .azure-text013 {
     font-size: 48px;
   }
-  .azure-text017 {
+  .azure-max-width2 {
+    width: 100%;
+  }
+  .azure-text020 {
+    font-size: 48px;
+  }
+  .azure-text024 {
+    font-size: 48px;
+  }
+  .azure-text028 {
     font-size: 48px;
   }
   .azure-feature-card {
+    flex-wrap: wrap;
     flex-direction: row;
+  }
+  .azure-container04 {
+    flex-direction: column;
+  }
+  .azure-container05 {
+    flex-direction: column;
+  }
+  .azure-feature-card1 {
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  .azure-container06 {
+    flex-direction: column;
   }
   .azure-container07 {
     flex-direction: column;
   }
+  .azure-feature-card2 {
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
   .azure-container08 {
     flex-direction: column;
-  }
-  .azure-feature-card1 {
-    flex-direction: row;
   }
   .azure-container09 {
     flex-direction: column;
   }
+  .azure-feature-card3 {
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
   .azure-container10 {
     flex-direction: column;
-  }
-  .azure-feature-card2 {
-    flex-direction: row;
   }
   .azure-container11 {
     flex-direction: column;
   }
+  .azure-feature-card4 {
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
   .azure-container12 {
     flex-direction: column;
-  }
-  .azure-feature-card3 {
-    flex-direction: row;
   }
   .azure-container13 {
     flex-direction: column;
   }
+  .azure-feature-card5 {
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
   .azure-container14 {
     flex-direction: column;
-  }
-  .azure-feature-card4 {
-    flex-direction: row;
   }
   .azure-container15 {
     flex-direction: column;
   }
+  .azure-feature-card6 {
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
   .azure-container16 {
     flex-direction: column;
-  }
-  .azure-feature-card5 {
-    flex-direction: row;
   }
   .azure-container17 {
     flex-direction: column;
   }
+  .azure-feature-card7 {
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
   .azure-container18 {
     flex-direction: column;
   }
-  .azure-feature-card6 {
-    flex-direction: row;
-  }
   .azure-container19 {
-    flex-direction: column;
-  }
-  .azure-container20 {
-    flex-direction: column;
-  }
-  .azure-feature-card7 {
-    flex-direction: row;
-  }
-  .azure-container21 {
-    flex-direction: column;
-  }
-  .azure-container22 {
     flex-direction: column;
   }
 }
 @media(max-width: 479px) {
+  .azure-container04 {
+    flex-direction: column;
+  }
+  .azure-container05 {
+    flex-direction: column;
+  }
+  .azure-container06 {
+    flex-direction: column;
+  }
   .azure-container07 {
     flex-direction: column;
   }
@@ -1090,15 +1260,6 @@
     flex-direction: column;
   }
   .azure-container19 {
-    flex-direction: column;
-  }
-  .azure-container20 {
-    flex-direction: column;
-  }
-  .azure-container21 {
-    flex-direction: column;
-  }
-  .azure-container22 {
     flex-direction: column;
   }
 }
